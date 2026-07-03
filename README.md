@@ -1,16 +1,78 @@
-# substracker
+# Substracker
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+Substracker is a mobile application built using Flutter that helps users manage digital subscriptions efficiently.
 
-This project is a starting point for a Flutter application.
+The application enables users to:
 
-A few resources to get you started if this is your first Flutter project:
+- Store subscription information
+- View monthly subscription expenses
+- Manage active subscriptions
+- Track billing dates
+- Perform Create, Read, Update, and Delete (CRUD) operations
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+
+- Splash Screen
+- Login Page
+- Dashboard
+- Subscription List
+- Add Subscription
+- Edit Subscription
+- Delete Subscription
+- Detail Subscription
+- Local SQLite Database
+
+---
+
+## Technologies
+
+- Flutter
+- Dart
+- SQLite
+- Provider
+- Material Design 3
+
+---
+
+## Installation
+
+Clone repository
+
+```bash
+git clone https://github.com/fahrezitolani/substracker.git
+```
+
+Install dependency
+
+```bash
+flutter pub get
+```
+
+Run application
+
+```bash
+flutter run
+```
+
+---
+
+## Folder Structure
+
+```
+lib/
+├── core/
+├── data/
+├── features/
+├── shared/
+```
+
+---
+
+## Authors
+
+- Muh. Fahrezi Tolani
+- Isak Sabam Tambunan
